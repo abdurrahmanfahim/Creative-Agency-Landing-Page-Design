@@ -1,0 +1,66 @@
+
+@media only screen and (max-width: 991px) {
+    
+    #banner p {
+        width: 72%;
+    }
+    nav .btn {
+        margin: 10px 0;
+    }
+    /* #banner .image-fluid
+    {
+        margin-left: auto;
+    } */
+}
+@media only screen and (max-width: 767px) {
+
+    nav img {
+      max-width: 60%;
+    }
+
+    #banner {
+        padding: 66px 0 80px;
+    }
+    #banner h1 {
+        width: 90%;
+        font-size: 51px;
+        font-weight: 700;
+        line-height: 80px;
+    }
+    #banner p {
+        width: 92%;
+    }
+
+}
+
+@media only screen and (max-width: 380px) {
+
+    nav img {
+      max-width: 70%;
+    }
+
+    #banner 
+    {
+        padding: 46px 0 60px;
+    }
+    #banner img
+    {
+        width: 95%;
+    }
+    #banner h1 {
+        width: 100%;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,630 @@
+:root {
+    --primery: #5956E8;;
+    --secendery: #181818;
+    --gray: #181818b3;
+    --white: #FFFFFF;
+}
+
+*
+{
+    font-family: Inter;
+    font-style: normal;
+    line-height: normal;
+    color: var(--secendery);
+}
+
+.container 
+{
+    max-width: 1200px;
+}
+
+.container-fluid
+{
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+a {
+    color: none;
+    text-decoration: none;
+}
+
+.btn
+{
+    border-radius: 10px;
+    padding: 12px 24px;
+}
+
+h2
+{
+    color: #181818;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+p.sub
+{
+    max-width: 542px;
+    color: var(--gray);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+section
+{
+    padding: 100px 0 0;
+}
+
+.card-box
+{
+    row-gap: 30px;
+}
+/* ==================== Navbar Start ==================== */
+.nav-link:hover {
+    color: var(--primery);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--primery);
+}
+
+nav .btn {
+    --bs-btn-border-color: var(--primery);
+    --bs-btn-color: var(--white);
+    font-weight: 500;
+    color: var(--white);
+    background-color: var(--primery);
+    transition: all linear 0.4s;
+}
+
+nav .btn:hover {
+    color: var(--primery);
+    border-color: var(--primery);
+    background-color: var(--white);
+}
+
+/* ==================== Navbar End ==================== */
+/* ==================== Banner Start ==================== */
+
+#banner
+{
+    padding: 118px 0 152px;
+}
+
+#banner h1
+{
+    color: var(--white);
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+#banner p
+{
+    width: 92%;
+    font-size: 16px;
+    color: var(--white);
+    font-weight: 400;
+    line-height: 27px;
+}
+
+#banner.container-fluid
+{
+    background: var(--primery);
+}
+
+#banner .btn {
+    background: var(--white);
+    color: var(--primery);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#banner .btn:hover {
+    border: 1px solid var(--white);
+    color: var(--white);
+    background-color: var(--primery);
+    
+}
+
+/* ==================== Banner End ==================== */
+
+/* ==================== Servies Start ==================== */
+
+#servies
+{
+    padding: 82px 0 0;
+}
+
+#servies .card-box
+{
+    row-gap: 30px;
+}
+
+#servies .card
+{
+    width: 370px;
+    height: 390px;
+    border-radius: 10px;
+    border: 0.5px solid #E3E3E3;
+    background: #FFF;
+    padding: 64px 48px;
+}
+
+#servies .card:hover
+{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#servies .card h3
+{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#servies .card p
+{
+    height: 108px;
+    color: var(--gray);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 0;
+    overflow: clip;
+}
+
+#servies .card .icon
+{
+    width: 71px;
+    height: 71px;
+    margin-bottom: 30px;
+    transition: all linear 0.4s;
+}
+
+#servies .card-1 .icon-1
+{
+    background: url('../image/Icon-1.svg');
+}
+
+#servies .card-1:hover .icon-1
+{
+    background: url('../image/Icon-1h.svg');
+}
+
+#servies .card-2 .icon-2
+{
+    background: url('../image/Icon-2.svg');
+}
+
+#servies .card-2:hover .icon-2
+{
+    background: url('../image/Icon-2h.svg');
+}
+
+#servies .card-3 .icon-3
+{
+    background: url('../image/Icon-3.svg');
+}
+
+#servies .card-3:hover .icon-3
+{
+    background: url('../image/Icon-3h.svg');
+}
+
+#servies .card-4 .icon-4
+{
+    background: url('../image/Icon-4.svg');
+}
+
+#servies .card-4:hover .icon-4
+{
+    background: url('../image/Icon-4h.svg');
+}
+
+#servies .card-5 .icon-5
+{
+    background: url('../image/Icon-5.svg');
+}
+
+#servies .card-5:hover .icon-5
+{
+    background: url('../image/Icon-5h.svg');
+}
+
+#servies .card-6 .icon-6
+{
+    background: url('../image/Icon-6.svg');
+}
+
+#servies .card-6:hover .icon-6
+{
+    background: url('../image/Icon-6h.svg');
+}
+
+/* ==================== Servies End ==================== */
+
+/* ==================== Portfolio End ==================== */
+#portfolio .card-box {
+    row-gap: 30px;
+}
+
+#portfolio .card-img
+{
+    width: 270px;
+    height: 319px;
+    border-radius: 10px;
+    background: cover no-repeat;
+}
+
+#portfolio .img-1
+{
+    background: url('../image/portfolio/Rectangle 12.jpg');
+}
+
+#portfolio .img-2
+{
+    background: url('../image/portfolio/Rectangle 13.jpg');
+}
+
+#portfolio .img-3
+{
+    background: url('../image/portfolio/Rectangle 14.jpg');
+}
+
+#portfolio .img-4
+{
+    background: url('../image/portfolio/Rectangle 15.jpg');
+}
+
+#portfolio .img-5
+{
+    background: url('../image/portfolio/Rectangle 16.jpg');
+}
+
+#portfolio .img-6
+{
+    background: url('../image/portfolio/Rectangle 17.jpg');
+}
+
+#portfolio .img-7
+{
+    background: url('../image/portfolio/Rectangle 18.jpg');
+}
+
+#portfolio .img-8
+{
+    background: url('../image/portfolio/Rectangle 19.jpg');
+}
+
+/* ==================== Portfolio End ==================== */
+
+/* ==================== Team Start ==================== */
+
+#team .card-box {
+    row-gap: 30px;
+}
+
+#team .img
+{
+    width: 370px;
+    height: 444px;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+#team .img-1
+{
+    background: url('../image/Rectangle 201.jpg');
+}
+
+#team .img-2
+{
+    background: url('../image/Rectangle 21.jpg');
+}
+
+#team .img-3
+{
+    background: url('../image/Rectangle 20.jpg');
+}
+
+#team .bg
+{
+    background: linear-gradient(0deg, #5956E8 -1.13%, rgba(255, 255, 255, 0.00) 58.11%);
+    height: inherit;
+    position: relative;
+}
+
+#team .bg .text
+{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#team .bg p
+{
+    color: var(--white);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+#team .bg span
+{
+    color: var(--white);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    display: block;
+}
+
+/* ==================== Team End ==================== */
+
+/* ==================== Testimonial Start ==================== */
+
+#testimonial 
+{
+    padding-top: 142px;
+}
+
+#testimonial h2
+{
+    text-align: left;
+    margin: 0 0;
+}
+
+#testimonial p
+{
+    max-width: 542px;
+    color: var(--gray);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+#testimonial .avator
+{
+    width: 83px;
+    height: 83px;
+    border-radius: 50%;
+    background: url('../image/Ellipse 7.jpg') lightgray no-repeat;
+}
+
+#testimonial .card
+{
+    width: 370px;
+    height: 426px;
+    border-radius: 10px;
+    background: #FFF;
+    padding: 48px;
+}
+
+#testimonial i
+{
+    color: #FBBF25;
+}
+
+#testimonial span
+{
+    margin: 30px 0 20px 0;
+}
+
+#testimonial h5
+{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    margin-top: 15px;
+}
+
+#testimonial small
+{
+    color: #5D5D5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+#testimonial .card:hover
+{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* ==================== Testimonial End ==================== */
+
+/* ==================== News Start ==================== */
+
+#news
+{
+    padding-top: 142px;
+}
+
+#news .card
+{
+    width: 370px;
+    height: 490px;
+    padding: 18px;
+    border-radius: 10px;
+    border: 1px solid #E3E3E3;
+    background: #FFF;
+}
+
+#news .card .image
+{
+    width: 332px;
+    height: 198px;
+    border-radius: 10px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+#news .card-1 .image
+{
+    background: url('../image/Rectangle 211.jpg') lightgray 50% / cover no-repeat;
+
+}
+
+#news .card-2 .image
+{
+    background: url('../image/Rectangle 233.jpg') lightgray 50% / cover no-repeat;
+    
+}
+
+#news .card-3 .image
+{
+    background: url('../image/Rectangle 222.jpg') lightgray 50% / cover no-repeat;
+
+}
+
+#news .padder
+{
+    padding: 16px;
+}
+
+#news span
+{
+    color: #5D5D5D;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    display: flex;
+    gap: 30px;
+    margin: 20px 0 10px;
+}
+
+#news span .admin, #news span .calender
+{
+    display: flex;
+    gap: 10px;
+}
+
+#news h4
+{
+    max-width: 271px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#news .paraTwo
+{
+    margin: 15px 0 10px;
+}
+
+#news a
+{
+    color: var(--primery);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* ==================== News End ==================== */
+
+/* ==================== Footer Start ==================== */
+
+footer 
+{
+    padding: 100px 0;
+}
+
+footer p, a
+{
+    max-width: 300px;
+    color: #5D5D5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    margin: 15px 0 20px;
+}
+
+footer span
+{
+    display: flex;
+    gap: 15px;
+}
+
+footer span .fb, footer span .twt
+{
+    width: 42px;
+    height: 42px;
+    display: block;
+    transition: all linear 0.4s;
+}
+
+footer span .fb
+{
+    background: url('../image/fb.svg');
+}
+footer span .fb:hover
+{
+    background: url('../image/fb-h.svg');
+}
+
+footer span .twt
+{
+    background: url('../image/twetter.svg');
+}
+footer span .twt:hover
+{
+    background: url('../image/twetter-h.svg');
+}
+
+footer .middle
+{
+    gap: 95px;
+}
+
+footer h4 
+{
+    max-width: 271px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+footer  ul
+{
+    padding: 0;
+    list-style-type: none;
+}
+
+footer ul a
+{
+    color: #5D5D5D;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+
+/* ==================== Footer End ==================== */
+
+
+
+
+
+
+
+
+
+
+
