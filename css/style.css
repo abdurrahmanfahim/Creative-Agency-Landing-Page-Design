@@ -73,6 +73,11 @@ section
 {
     row-gap: 30px;
 }
+
+.bg-body-tertiary {
+    background-color: var(--white) !important;
+}
+
 /* ==================== Navbar Start ==================== */
 .nav-link:hover {
     color: var(--primery);
