@@ -271,7 +271,7 @@ nav .btn:hover {
     background: url('../image/icons/Icon-1h.svg');
 }
 
-/* #servies .card-3 .icon-3
+#servies .card-3 .icon-3
 {
     background: url('../image/icons/Icon-1.svg');
 }
@@ -279,16 +279,6 @@ nav .btn:hover {
 #servies .card-3:hover .icon-3
 {
     background: url('../image/icons/Icon-1h.svg');
-} */
-
-#servies .card-3 .icon-3
-{
-    background: url('../image/icons/Icon-3.svg');
-}
-
-#servies .card-3:hover .icon-3
-{
-    background: url('../image/icons/Icon-3h.svg');
 }
 
 #servies .card-4 .icon-4
