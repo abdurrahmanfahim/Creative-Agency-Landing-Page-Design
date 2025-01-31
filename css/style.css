@@ -186,11 +186,11 @@ nav .btn:hover {
 .hover-image {
     opacity: 0;
 }
-  
-#servies .card-2:hover .hover-image {
+
+#servies .card:hover .hover-image {
     opacity: 1;
 }
-#servies .card-2:hover .base-image {
+#servies .card:hover .base-image {
     opacity: 0;
 }
 
@@ -224,115 +224,9 @@ nav .btn:hover {
     border: 0.5px solid #5956E8;
 }
 
-#servies .card-1 .icon-1
+#servies .card:hover .icon
 {
-    background: url('../image/icons/Icon-1.svg');
-}
-
-#servies .card-1:hover .icon-1
-{
-    background: url('../image/icons/Icon-1h.svg');
-}
-
-/* #servies .card-2 .icon-2
-{
-    background: url('../image/icons/Icon-2.svg');
-}
-
-#servies .card-2:hover .icon-2
-{
-    background: url('../image/icons/Icon-2h.svg');
-}
-
-#servies .card-3 .icon-3
-{
-    background: url('../image/icons/Icon-3.svg');
-}
-
-#servies .card-3:hover .icon-3
-{
-    background: url('../image/icons/Icon-3h.svg');
-}
-
-#servies .card-4 .icon-4
-{
-    background: url('../image/icons/Icon-4.svg');
-}
-
-#servies .card-4:hover .icon-4
-{
-    background: url('../image/icons/Icon-4h.svg');
-}
-
-#servies .card-5 .icon-5
-{
-    background: url('../image/icons/Icon-5.svg');
-}
-
-#servies .card-5:hover .icon-5
-{
-    background: url('../image/icons/Icon-5h.svg');
-}
-
-#servies .card-6 .icon-6
-{
-    background: url('../image/icons/Icon-6.svg');
-}
-
-#servies .card-6:hover .icon-6
-{
-    background: url('../image/icons/Icon-6h.svg');
-} */
-
-#servies .card-2 .icon-2
-{
-    /* background: url('../image/icons/Icon-1.svg'); */
-}
-
-#servies .card-2:hover .icon-2
-{
-    /* background: url('../image/icons/Icon-1h.svg'); */
     background: var(--primery);
-}
-
-#servies .card-3 .icon-3
-{
-    background: url('../image/icons/Icon-1.svg');
-}
-
-#servies .card-3:hover .icon-3
-{
-    background: url('../image/icons/Icon-1h.svg');
-}
-
-#servies .card-4 .icon-4
-{
-    background: url('../image/icons/Icon-1.svg');
-}
-
-#servies .card-4:hover .icon-4
-{
-    background: url('../image/icons/Icon-1h.svg');
-}
-
-#servies .card-5 .icon-5
-{
-    background: url('../image/icons/Icon-1.svg');
-}
-
-#servies .card-5:hover .icon-5
-{
-    background: url('../image/icons/Icon-1h.svg');
-}
-
-#servies .card-6 .icon-6
-{
-    background: url('../image/icons/Icon-1.svg');
-}
-
-#servies .card-6:hover .icon-6
-{
-    background: url('../image/icons/Icon-1h.svg');
 }
 
 /* ==================== Servies End ==================== */
